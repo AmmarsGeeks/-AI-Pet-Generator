@@ -84,6 +84,7 @@ def generate_car_image(prompt):
 # --- RECORD AUDIO FEATURE ---
 st.markdown("### 🎧 Record Your Own Voice")
 
+
 audio_bytes = audio_recorder(pause_threshold=60.0, text="Click to Record")
 
 if audio_bytes:
@@ -117,9 +118,6 @@ if audio_bytes:
             st.audio(audio_file.read(), format="audio/mp3")
 else:
     st.warning("Click the record button to start recording your voice.")
-
-
-
 
 
 
