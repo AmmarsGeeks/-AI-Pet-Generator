@@ -1,0 +1,12 @@
+openai-whisper
+language-tool-python
+openai>=1.0.0
+pydub
+gTTS
+python-dotenv
+ffmpeg-python
+torch  
+streamlit
+requests
+Pillow
+audio-recorder-streamlit
